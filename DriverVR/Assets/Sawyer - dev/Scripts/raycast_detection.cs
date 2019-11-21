@@ -10,6 +10,7 @@ public class raycast_detection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hitInfo;
 
