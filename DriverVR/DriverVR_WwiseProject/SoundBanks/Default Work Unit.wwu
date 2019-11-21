@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F6F76357-DF5F-4081-8485-AC9F09CF4BDE}" SchemaVersion="85">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{F6F76357-DF5F-4081-8485-AC9F09CF4BDE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F6F76357-DF5F-4081-8485-AC9F09CF4BDE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="DiverVR" ID="{1AB129EA-2630-4358-AC5C-04D5CBAD92B5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Radio_Static" ID="{AFAFD76B-FF66-4551-BABA-AD75C8A4442E}" WorkUnitID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Map" ID="{B5259FA0-62D6-473F-872F-0700BD201686}" WorkUnitID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Map_Open" ID="{28E2C08B-0AEC-480C-93E3-75C95EF9CD40}" WorkUnitID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Air_Raid_Siren" ID="{6FE182D2-2DAB-487B-AC92-5E876076765D}" WorkUnitID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Radio" ID="{1A63F0F7-1E53-4C48-AB11-2C24A79019B1}" WorkUnitID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Air_Raid_Siren" ID="{A57025E0-661A-4D00-99AB-D979328A59D1}" WorkUnitID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Map_Close" ID="{DC97DDE7-8C4D-4E8F-93BB-83B3E1B90511}" WorkUnitID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

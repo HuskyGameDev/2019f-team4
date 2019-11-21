@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	376964263	Radio_Static			\Default Work Unit\Radio\Radio_Static	
+	2087197112	Map_Open			\Default Work Unit\Map\Map_Open	
+	2210983596	Map_Close			\Default Work Unit\Map\Map_Close	
+	3308312044	Air_Raid_Siren			\Default Work Unit\Air_Raid_Siren\Air_Raid_Siren	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	77883973	Radio_Static_Short_1	C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\.cache\Mac\SFX\Radio Static Short 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio SFX\Radio_Static\Radio_Static_Short_1		97896
+	236263548	Air_Raid_Siren	C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\.cache\Mac\SFX\Air Raid Siren_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Air_Raid_Siren\Air_Raid_Siren		21426784
+	447450836	Radio_Static_Long_1	C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\.cache\Mac\SFX\Radio Static Long 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio SFX\Radio_Static\Radio_Static_Long_1		1931812
+	571985792	Map_Open	C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\.cache\Mac\SFX\Map Open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Map\Map_Open		136120
+	648781587	Map_Close	C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\.cache\Mac\SFX\Map Closed_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Map\Map_Close		136120
+	863470456	Radio_Static_Short_2	C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\.cache\Mac\SFX\Radio Static Short 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio SFX\Radio_Static\Radio_Static_Short_2		69968
+	883149232	Radio_Static_Long_2	C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\.cache\Mac\SFX\Radio Static Long 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio SFX\Radio_Static\Radio_Static_Long_2		4003412
+

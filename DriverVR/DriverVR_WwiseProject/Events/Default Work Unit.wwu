@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DE051524-53B1-408F-A57F-B48EBF93B79A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Radio" ID="{1A63F0F7-1E53-4C48-AB11-2C24A79019B1}" ShortID="615013062">
+					<ChildrenList>
+						<Event Name="Radio_Static" ID="{AFAFD76B-FF66-4551-BABA-AD75C8A4442E}">
+							<ChildrenList>
+								<Action Name="" ID="{4FFE7174-39F4-4EC3-A198-3A4087737572}" ShortID="680008454">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Radio_Static" ID="{9BB1DD62-EDCE-41F7-A7B5-7543209448C4}" WorkUnitID="{AF4EC5C3-8405-4528-872A-DB4FA0C94A3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Map" ID="{B5259FA0-62D6-473F-872F-0700BD201686}" ShortID="736654929">
+					<ChildrenList>
+						<Event Name="Map_Open" ID="{28E2C08B-0AEC-480C-93E3-75C95EF9CD40}">
+							<ChildrenList>
+								<Action Name="" ID="{7D237CF0-7521-4C3B-8AB0-A8355BF45389}" ShortID="622528698">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Map_Open" ID="{D640DD94-577E-4FB6-BBCC-98E0B3F633D3}" WorkUnitID="{AF4EC5C3-8405-4528-872A-DB4FA0C94A3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Map_Close" ID="{DC97DDE7-8C4D-4E8F-93BB-83B3E1B90511}">
+							<ChildrenList>
+								<Action Name="" ID="{B3AC8010-41EC-428B-8703-2AEABA6A3434}" ShortID="257180812">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Map_Close" ID="{FAD6AD25-B4A3-4441-9C5A-D2A77B1D783F}" WorkUnitID="{AF4EC5C3-8405-4528-872A-DB4FA0C94A3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Air_Raid_Siren" ID="{6FE182D2-2DAB-487B-AC92-5E876076765D}" ShortID="994841500">
+					<ChildrenList>
+						<Event Name="Air_Raid_Siren" ID="{A57025E0-661A-4D00-99AB-D979328A59D1}">
+							<ChildrenList>
+								<Action Name="" ID="{3E769C15-8CFF-469B-80A6-9DE8DDCA4E90}" ShortID="376563742">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Air_Raid_Siren" ID="{2BCF07AC-0126-445B-8C6C-F1AC0881CFB3}" WorkUnitID="{AF4EC5C3-8405-4528-872A-DB4FA0C94A3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
