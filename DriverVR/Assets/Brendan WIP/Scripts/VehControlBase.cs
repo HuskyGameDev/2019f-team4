@@ -30,6 +30,9 @@ public class VehControlBase : MonoBehaviour{
         visualWheel.transform.rotation = rotation;
     }
 
+    //x accelerate
+    //o reverse
+    //shoulder
     //Handles setting variables based on input
     void VehInput(ref float steering, ref float motor, ref float brake){
         //Motor, Forward has precedence
