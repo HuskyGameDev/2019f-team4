@@ -14,6 +14,7 @@ public class VehControlBase : MonoBehaviour{
     public List<AxleInfo> axleInfos; 
     [SerializeField]
     private float maxMotorTorque, maxSteeringAngle, maxBrakeForce;
+    private float currTorque = 0;
 
     public void ApplyLocalPositionToVisuals(WheelCollider collider){
         if (collider.transform.childCount == 0) {
@@ -34,12 +35,25 @@ public class VehControlBase : MonoBehaviour{
     //o reverse
     //shoulder
     //Handles setting variables based on input
-    void VehInput(ref float steering, ref float motor, ref float brake){
+    void VehInput(ref float steering, ref float motor, ref float brake) {
         //Motor, Forward has precedence
-        motor = (Input.GetKey(KeyCode.S)) ? -maxMotorTorque : 0;    //Reverse
-        motor = (Input.GetKey(KeyCode.W)) ? maxMotorTorque : motor; //Forward
+        //motor = (Input.GetKey(KeyCode.S)) ? -maxMotorTorque : 0;    //Reverse
+        //motor = (Input.GetKey(KeyCode.W)) ? maxMotorTorque : motor; //Forward
+        motor = maxMotorTorque * Input.GetAxis("Acceleration"); //acceleration/deceleration
+        
+        if ((currTorque * motor < 0) || Input.GetButton("Brake"))
+        {
+            brake = maxBrakeForce;
+            motor = 0;
+        } else { brake = 0; }
+        /*if (motor != 0) { Debug.Log(motor); } 
+        if ((currTorque == 0 && braking) || (currTorque < 0 && motor > 0) || (currTorque > 0 && motor < 0))
+        {
+            brake = maxBrakeForce;
+            motor = 0;
+        } else { brake = 0; }
 
-        brake = (Input.GetKey(KeyCode.Space)) ? maxBrakeForce : 0; //Brake
+        //brake = (Input.GetKey(KeyCode.Space)) ? maxBrakeForce : 0; //Brake*/
 
         steering = maxSteeringAngle * Input.GetAxis("Horizontal"); //Steering
 
@@ -65,6 +79,8 @@ public class VehControlBase : MonoBehaviour{
 
                 axleInfo.leftWheel.brakeTorque = brakeVal;
                 axleInfo.rightWheel.brakeTorque = brakeVal;
+
+                currTorque = axleInfo.leftWheel.motorTorque;
             }
             
             //Apply visuals
