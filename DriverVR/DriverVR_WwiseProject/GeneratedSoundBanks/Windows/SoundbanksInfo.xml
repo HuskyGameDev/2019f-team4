@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\GitHub\2019f-team4\DriverVR\DriverVR_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1880276963" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\DiverVR</ObjectPath>
+			<ShortName>DiverVR</ShortName>
+			<Path>DiverVR.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3308312044" Name="Air_Raid_Siren" ObjectPath="\Events\Default Work Unit\Air_Raid_Siren\Air_Raid_Siren"/>
+				<Event Id="2210983596" Name="Map_Close" ObjectPath="\Events\Default Work Unit\Map\Map_Close"/>
+				<Event Id="2087197112" Name="Map_Open" ObjectPath="\Events\Default Work Unit\Map\Map_Open"/>
+				<Event Id="376964263" Name="Radio_Static" ObjectPath="\Events\Default Work Unit\Radio\Radio_Static"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="77883973" Language="SFX">
+					<ShortName>Radio Static Short 1.wav</ShortName>
+					<Path>SFX\Radio Static Short 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="236263548" Language="SFX">
+					<ShortName>Air Raid Siren.wav</ShortName>
+					<Path>SFX\Air Raid Siren_1C9C67B2.wem</Path>
+				</File>
+				<File Id="447450836" Language="SFX">
+					<ShortName>Radio Static Long 1.wav</ShortName>
+					<Path>SFX\Radio Static Long 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="571985792" Language="SFX">
+					<ShortName>Map Open.wav</ShortName>
+					<Path>SFX\Map Open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="648781587" Language="SFX">
+					<ShortName>Map Closed.wav</ShortName>
+					<Path>SFX\Map Closed_1C9C67B2.wem</Path>
+				</File>
+				<File Id="863470456" Language="SFX">
+					<ShortName>Radio Static Short 2.wav</ShortName>
+					<Path>SFX\Radio Static Short 2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="883149232" Language="SFX">
+					<ShortName>Radio Static Long 2.wav</ShortName>
+					<Path>SFX\Radio Static Long 2_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
