@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/LWRP/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Sawyer - dev/Scenes/Menu.unity
+    guid: b91bc9a670c49c04b86bfb4df6f3fcb7
+  - enabled: 1
+    path: Assets/Sawyer - dev/Scenes/AI Movement.unity
+    guid: 9ac2e875d45bd8c4aa143bf7d47f8b24
   m_configObjects: {}
