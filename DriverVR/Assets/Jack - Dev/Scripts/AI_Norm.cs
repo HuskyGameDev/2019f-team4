@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AI : MonoBehaviour {
+public class AI_Norm : MonoBehaviour {
 
     public Transform player;
     public Transform head;
