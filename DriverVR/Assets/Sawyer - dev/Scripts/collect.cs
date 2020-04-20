@@ -4,6 +4,18 @@ using UnityEngine;
 
 public class collect : MonoBehaviour
 {
+
+    public GameObject player;
+    public GameObject muffin;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject == player) {
+            Destroy(gameObject);
+            muffin.SetActive(true);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
