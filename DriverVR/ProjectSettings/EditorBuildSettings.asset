@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Main/Main.unity
     guid: fc9ca87a0d0b619408aa9d7b0e396db9
+  - enabled: 1
+    path: Assets/Sawyer - dev/Scenes/AudioTest.unity
+    guid: 55c744d2a13f6ee4aa6d1c4be52ec85d
   m_configObjects: {}
