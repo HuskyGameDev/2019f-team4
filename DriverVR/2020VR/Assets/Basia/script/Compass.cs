@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class arrow : MonoBehaviour
+public class Compass : MonoBehaviour
 {
     public Vector3 North;
     public Transform Player;
