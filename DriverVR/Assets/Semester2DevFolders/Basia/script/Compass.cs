@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class arrow : MonoBehaviour
+public class Compass : MonoBehaviour
 {
     public Vector3 North;
     public Transform Player;
@@ -33,7 +33,7 @@ public class arrow : MonoBehaviour
 
         GrandmasHouse = Quaternion.LookRotation(direction);
 
-        GrandmasHouse.z = GrandmasHouse.y;
+        GrandmasHouse.z = -GrandmasHouse.y;
         GrandmasHouse.x = 0;
         GrandmasHouse.y = 0;
 
