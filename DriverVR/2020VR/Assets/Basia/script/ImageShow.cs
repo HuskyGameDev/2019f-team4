@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-//Right now the image will disapear on click
+//Right now the image will disapear on click "g"
 
 //I tried to switch the showimage trues and false so the image would appear 
 //on the click, but for some reason it wasn't working. Might be from my end.
@@ -21,7 +21,7 @@ public class ImageShow : MonoBehaviour {
 
     void Update()
     {
-        if (Input //Add the click function  )      When I tried testing I used  ".GetKeyDown("g")"  When g on your keyboard is clicked the image will appear and disappear
+        if (Input.GetKeyDown("g"))
         {
             if (ShowImage == true) {
                 MapImage.enabled = true;
