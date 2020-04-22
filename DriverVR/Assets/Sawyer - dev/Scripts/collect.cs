@@ -10,6 +10,7 @@ public class collect : MonoBehaviour
     public GameObject compass;
     public GameObject home;
     Compass compassScript;
+    detect detectScript;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,6 +18,7 @@ public class collect : MonoBehaviour
             Destroy(gameObject);
             muffin.SetActive(true);
             compassScript.Grannys = home.transform;
+            detectScript.collected = true;
         }
     }
 
@@ -24,6 +26,7 @@ public class collect : MonoBehaviour
     void Start()
     {
         compassScript = compass.GetComponent<Compass>();
+        detectScript = home.GetComponent<detect>();
     }
 
     // Update is called once per frame

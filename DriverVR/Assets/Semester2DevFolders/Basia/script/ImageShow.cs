@@ -9,12 +9,12 @@ public class ImageShow : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKeyDown("g") && ShowImage == false)
+        if (Input.GetButtonDown("Jump") && ShowImage == false)
         {
             Map.SetActive(true);
             ShowImage = true;
         }
-        else if (Input.GetKeyDown("g") && ShowImage == true) {
+        else if (Input.GetButtonDown("Jump") && ShowImage == true) {
             Map.SetActive(false);
             ShowImage = false;
         }

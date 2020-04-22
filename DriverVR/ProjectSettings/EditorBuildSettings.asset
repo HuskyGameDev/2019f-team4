@@ -8,10 +8,28 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Sawyer - dev/Menu&Materials/Scenes/Menu.unity
+    guid: b91bc9a670c49c04b86bfb4df6f3fcb7
+  - enabled: 1
+    path: Assets/Dom-Dev/tests/map4.unity
+    guid: d227d41fd067d6848bd6ec3e14114864
+  - enabled: 1
+    path: Assets/Dom-Dev/tests/map3.unity
+    guid: 98dd2b731ff8e12429d06f69e4ccb7f4
+  - enabled: 1
+    path: Assets/Dom-Dev/tests/Map2.unity
+    guid: 17a6f5b234d83d4428f11a58185adc5c
+  - enabled: 1
+    path: Assets/Sawyer - dev/Menu&Materials/Scenes/Win.unity
+    guid: 71c9f1ddb5980a947a7ae7933b557c2b
+  - enabled: 1
+    path: Assets/Sawyer - dev/Menu&Materials/Scenes/GameOver.unity
+    guid: 81a69ef72d853b34894544a2045322d6
   - enabled: 0
     path: Assets/Main/Main.unity
     guid: fc9ca87a0d0b619408aa9d7b0e396db9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sawyer - dev/Scenes/AudioTest.unity
     guid: 55c744d2a13f6ee4aa6d1c4be52ec85d
   m_configObjects: {}
